@@ -1,22 +1,38 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 🎤 Wu-Tang Clan Name Generator 🥷
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+## 🎯 Goal
+Create a **fun web app** that generates a Wu-Tang Clan-style name for the user.  
+The generator asks **5 survey questions**, then produces a randomly generated name based on the responses.  
 
-### How to submit your code for review:
+> Names don’t have to be exact Wu-Tang members’ names—they just need to sound “Wu-Tang-ish.”  
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+---
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## 🚀 Features
+- ✅ 5-question survey to capture user personality and style  
+- ✅ Randomized name generation based on survey answers  
+- ✅ Fun and shareable “Wu-Tang-style” names  
+- ✅ Lightweight and easy to use  
+
+---
+
+## 🧩 Tech Stack
+- **HTML** – Structure and survey form  
+- **CSS** – Styling and layout  
+- **JavaScript** – Handles survey logic, random name generation, and display  
+
+---
+
+## 💻 How It Works
+1. The user answers **5 survey questions** (favorite element, animal, color, city, and a style word).  
+2. JavaScript processes the answers and selects **prefixes, suffixes, and modifiers**.  
+3. A random **Wu-Tang-sounding name** is generated and displayed.  
+4. Users can refresh or retake the quiz to get new names.  
+
+---
+
+## 📦 Installation & Usage
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/wutang-name-generator.git
